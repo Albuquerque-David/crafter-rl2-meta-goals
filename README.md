@@ -7,10 +7,6 @@
 > the task (~80% success) with a **fixed routine**, and recurrent memory showed **no measurable
 > effect** under any of the 14 conditions tested.
 
-**Autores:** <!-- PREENCHER: nomes dos autores -->
-**Disciplina:** <!-- PREENCHER: nome da disciplina / professor / instituição / semestre -->
-**Licença:** <!-- PREENCHER: ex. MIT, Apache-2.0, CC-BY-4.0 -->
-
 ---
 
 ## 1. O projeto
