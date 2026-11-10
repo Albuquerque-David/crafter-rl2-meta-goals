@@ -1,0 +1,37 @@
+# Ambiente virtual e cache do Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Checkpoints: gerados pelo treino, ~765 KB (best.pt) e ~3 MB (last.pt) cada
+*.pt
+
+# Vídeos: gerados por gerar_videos.py ou por --video (exceto o exemplo em docs/)
+*.mp4
+!docs/exemplo_*.mp4
+
+# Logs
+*.log
+log.txt
+nohup.out
+
+# Dados: nada de CSV/JSON de resultado é versionado — só código e figuras.
+# Os números dos experimentos estão nas tabelas do README e nas curvas em analises/.
+resultados/
+resultados_C_G999/
+*.csv
+
+# Execuções de teste rápido (--smoke): não medem aprendizado
+resultados_smoke/
+analise_smoke/
+
+# Figuras e saídas de análises ad hoc
+analise/
+analises/analise_smoke/
+
+# Backups e temporários
+*.zip
+*.tar.gz
+.DS_Store
+.ipynb_checkpoints/

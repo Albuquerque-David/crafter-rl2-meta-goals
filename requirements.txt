@@ -1,0 +1,17 @@
+# Python 3.12 (o script principal exige >=3.10,<3.13)
+#
+# O torch é a build de CPU. Instale apontando para o índice do PyTorch:
+#
+#   uv pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+#
+# Estas são as versões usadas nos experimentos deste repositório.
+
+torch==2.8.0
+numpy==1.26.4
+pillow==11.3.0
+matplotlib==3.10.6
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+crafter==1.8.3
+gym==0.26.2
+opensimplex==0.3
